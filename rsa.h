@@ -7,10 +7,10 @@
 class RSA {
     public:
         void input();
-        unsigned _phi();
-        unsigned _N();
-        void set_e(); // set encryption key
-        void set_d(); // set decryption key
+        unsigned set_phi();
+        unsigned set_N();
+        unsigned set_e(); // set encryption key
+        unsigned set_d(); // set decryption key
         
         
 
